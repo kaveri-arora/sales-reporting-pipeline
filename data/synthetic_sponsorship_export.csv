@@ -1,0 +1,11 @@
+account_id,account_name,sponsorship_level,event_name,sponsorship_revenue,booth_size_sqft,speaking_session,region,consecutive_years
+A001,TechCorp Solutions,Silver,NA SEC 2024,25000,100,No,NA,3
+A002,InnovateTech,Gold,NA SEC 2024,45000,200,Yes,NA,5
+A003,DataSystems GmbH,Platinum,NA SEC 2024,80000,400,Yes,EMEA,7
+A004,CloudBase Inc,Silver,NA SEC 2024,25000,100,No,NA,1
+A005,FutureTech Asia,Gold,NA SEC 2024,45000,200,Yes,APAC,4
+A006,GlobalIT Partners,Silver,NA SEC 2024,25000,100,No,EMEA,2
+A007,SmartAnalytics,Platinum,NA SEC 2024,80000,400,Yes,NA,8
+A008,NextGen Systems,Gold,NA SEC 2024,45000,200,Yes,NA,3
+A009,TechVision Ltd,Silver,NA SEC 2024,25000,100,No,APAC,1
+A010,Enterprise AI Co,Gold,NA SEC 2024,45000,200,Yes,EMEA,6

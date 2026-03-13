@@ -1,0 +1,16 @@
+rep_id,rep_name,manager_name,forecast_month,cy_forecast,fb_forecast,actual_bookings,product_type,region
+R001,Priya Sharma,Anita Mehta,2024-01-31,120000,115000,118500,Silver Booth,NA
+R002,James Carter,Anita Mehta,2024-01-31,95000,90000,88000,Gold Booth,NA
+R003,Sofia Rossi,David Lee,2024-01-31,150000,145000,162000,Platinum Booth,EMEA
+R004,Mark Johnson,David Lee,2024-01-31,80000,78000,74000,Silver Booth,NA
+R005,Aisha Khan,Anita Mehta,2024-01-31,110000,105000,112000,Gold Booth,APAC
+R001,Priya Sharma,Anita Mehta,2024-02-29,125000,120000,122000,Silver Booth,NA
+R002,James Carter,Anita Mehta,2024-02-29,98000,94000,91000,Gold Booth,NA
+R003,Sofia Rossi,David Lee,2024-02-29,155000,150000,168000,Platinum Booth,EMEA
+R004,Mark Johnson,David Lee,2024-02-29,82000,80000,79000,Silver Booth,NA
+R005,Aisha Khan,Anita Mehta,2024-02-29,115000,110000,118000,Gold Booth,APAC
+R001,Priya Sharma,Anita Mehta,2024-03-31,130000,125000,128000,Silver Booth,NA
+R002,James Carter,Anita Mehta,2024-03-31,100000,96000,94500,Gold Booth,NA
+R003,Sofia Rossi,David Lee,2024-03-31,160000,155000,175000,Platinum Booth,EMEA
+R004,Mark Johnson,David Lee,2024-03-31,85000,82000,80000,Silver Booth,NA
+R005,Aisha Khan,Anita Mehta,2024-03-31,118000,114000,121000,Gold Booth,APAC
