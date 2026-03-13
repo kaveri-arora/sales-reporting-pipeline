@@ -173,4 +173,4 @@ All data in this repository is **synthetic** and generated to mirror the structu
 
 ---
 
-*Part of my analytics portfolio — [LinkedIn](https://linkedin.com) | [Portfolio](https://github.com)*
+*Part of my analytics portfolio — linkedin.com/in/kaveri-arora-2a702313b/| github.com/kaveri-arora*
