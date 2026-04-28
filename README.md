@@ -67,28 +67,21 @@ Source Systems
 sales-reporting-pipeline/
 │
 ├── data/
-│   ├── synthetic_rep_activity.csv        # Weekly rep KPI data (synthetic)
-│   ├── synthetic_bookings.csv            # Monthly bookings by rep (synthetic)
-│   ├── synthetic_sponsorship_export.csv  # Weekly sponsorship pipeline (synthetic)
-│   └── synthetic_commission.csv         # Commission & quota tracker (synthetic)
+│   ├── synthetic_rep_activity.csv
+│   ├── synthetic_bookings.csv
+│   ├── synthetic_sponsorship_export.csv
+│   └── synthetic_commission.csv
 │
 ├── sql/
-│   ├── rep_activity_kpi_query.sql        # Weekly KPI aggregation logic
-│   ├── bookings_rollup.sql               # Monthly bookings by rep & manager
-│   ├── forecasting_rollup.sql            # CY/FB forecast reconciliation
-│   └── pipeline_reconciliation.sql       # Multi-source data validation checks
+│   ├── rep_activity_kpi_query.sql
+│   ├── bookings_rollup.sql
+│   ├── pipeline_reconciliation.sql
+│   └── advanced_analytics.sql
 │
 ├── alteryx/
-│   └── workflow_screenshots/             # Screenshots of Alteryx workflow design
-│
-├── output/
-│   ├── sample_rep_dashboard.png          # Sample KPI dashboard output
-│   └── sample_bookings_summary.png       # Sample monthly bookings summary
+│   └── README_alteryx.md        # Pipeline architecture documentation
 │
 └── README.md
-```
-
----
 
 ## 🔍 Key SQL Logic
 
@@ -170,6 +163,28 @@ Rather than catching errors post-distribution, reconciliation checks were built 
 ## ⚠️ Note on Data
 
 All data in this repository is **synthetic** and generated to mirror the structure of real operational data. No proprietary or confidential information is included. Column names and structures reflect real-world sales operations reporting patterns.
+## Alteryx Pipeline — Architecture Notes
+
+The Alteryx workflow for this pipeline runs locally and 
+cannot be shared publicly as it connects to live source systems.
+
+### What the workflow does:
+1. Ingests data from 4 source systems on a scheduled basis
+2. Joins and reconciles across sources
+3. Applies transformation and rollup logic
+4. Outputs formatted reports for distribution
+
+### Key design decisions:
+- Validation checks embedded at every join step
+- Row count assertions after each transformation
+- Exception routing for unmatched records
+  (rather than silent exclusion via INNER JOIN)
+
+### Tools used:
+- Alteryx Designer for workflow development
+- Alteryx Server for scheduled execution
+- SQL for transformation logic (see /sql folder)
+- Power BI for dashboard layer
 
 ---
 
