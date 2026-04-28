@@ -13,7 +13,6 @@
 -- -----------------------------------------------
 -- Query 1: Reps with 3+ consecutive weeks of declining activity
 -- Patterns: LAG for consecutive conditions, DATE_SUB
--- Subscription equivalent: users with declining lesson completion
 -- -----------------------------------------------
 WITH weekly_calls AS (
     -- Step 1: one row per rep per week
@@ -48,7 +47,6 @@ ORDER BY rep_id;
 -- -----------------------------------------------
 -- Query 2: Reps active last quarter but NOT this quarter
 -- Patterns: LEFT ANTI JOIN, quarter-over-quarter comparison
--- Subscription equivalent: reactivated users (inactive last month, active this month)
 -- -----------------------------------------------
 WITH q_prev AS (
     SELECT DISTINCT rep_id
@@ -79,7 +77,6 @@ ORDER BY r.manager_name;
 -- -----------------------------------------------
 -- Query 3: Commission register with running total and rank
 -- Patterns: DENSE_RANK, running total, % of total
--- Subscription equivalent: MRR by plan type with cumulative total
 -- -----------------------------------------------
 WITH commission_calc AS (
     SELECT
@@ -131,7 +128,6 @@ ORDER BY yr, mn, commission_earned DESC;
 -- -----------------------------------------------
 -- Query 4: Reps who hit target every month of the quarter
 -- Patterns: HAVING COUNT(DISTINCT ...) = N
--- Subscription equivalent: users active all 12 months of the year
 -- -----------------------------------------------
 WITH monthly_attainment AS (
     SELECT
