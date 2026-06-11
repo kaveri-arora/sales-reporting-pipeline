@@ -1,0 +1,21 @@
+rep_id,rep_name,manager_name,total_calls,total_meetings,total_proposals,total_closed,call_to_close_pct,revenue,quota,attainment_pct,week_start_date
+R001,Ananya Sharma,Priya Mehta,51,8,7,4,7.84,49972,50000,99.9,2024-01-01
+R002,Rahul Verma,Priya Mehta,46,14,6,1,2.17,14640,50000,29.3,2024-01-01
+R003,Kavya Nair,Arjun Singh,61,20,6,4,6.56,48688,50000,97.4,2024-01-01
+R004,Vikram Patel,Arjun Singh,41,10,8,3,7.32,39156,50000,78.3,2024-01-01
+R005,Sunita Gupta,Priya Mehta,46,8,6,5,10.87,54035,50000,108.1,2024-01-01
+R001,Ananya Sharma,Priya Mehta,70,9,5,2,2.86,16334,50000,32.7,2024-01-08
+R002,Rahul Verma,Priya Mehta,72,12,9,4,5.56,49308,50000,98.6,2024-01-08
+R003,Kavya Nair,Arjun Singh,59,19,6,4,6.78,58364,50000,116.7,2024-01-08
+R004,Vikram Patel,Arjun Singh,44,16,9,3,6.82,34749,50000,69.5,2024-01-08
+R005,Sunita Gupta,Priya Mehta,42,18,12,3,7.14,33585,50000,67.2,2024-01-08
+R001,Ananya Sharma,Priya Mehta,75,14,5,5,6.67,68095,50000,136.2,2024-01-15
+R002,Rahul Verma,Priya Mehta,51,20,11,5,9.8,62630,50000,125.3,2024-01-15
+R003,Kavya Nair,Arjun Singh,40,17,5,5,12.5,42760,50000,85.5,2024-01-15
+R004,Vikram Patel,Arjun Singh,46,12,8,1,2.17,13668,50000,27.3,2024-01-15
+R005,Sunita Gupta,Priya Mehta,64,13,8,2,3.12,28242,50000,56.5,2024-01-15
+R001,Ananya Sharma,Priya Mehta,60,16,4,3,5.0,35331,50000,70.7,2024-01-22
+R002,Rahul Verma,Priya Mehta,41,14,11,4,9.76,39104,50000,78.2,2024-01-22
+R003,Kavya Nair,Arjun Singh,66,19,10,1,1.52,13591,50000,27.2,2024-01-22
+R004,Vikram Patel,Arjun Singh,61,12,8,4,6.56,32436,50000,64.9,2024-01-22
+R005,Sunita Gupta,Priya Mehta,45,18,7,1,2.22,9449,50000,18.9,2024-01-22
